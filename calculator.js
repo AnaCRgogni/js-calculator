@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function multiply(a, b) { return a * b; }
     function divide(a, b) {
         if (b === 0) {
-            alert("Error: No se puede dividir por 0");
+            alert("Error: Not even you can divide by 0!");
             return null;
         }
         return a / b;
